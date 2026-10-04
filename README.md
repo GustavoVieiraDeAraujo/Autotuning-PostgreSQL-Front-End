@@ -20,7 +20,7 @@
 
 Interface web (React + TypeScript) pra acompanhar e controlar a coleta de
 benchmark do projeto de autotuning PostgreSQL, consumindo a API do
-repositório irmão [`Autotuning-PostgreSQL-Backend`](../Autotuning-PostgreSQL-Backend)
+repositório irmão [`Autotuning-PostgreSQL-Back-End`](../Autotuning-PostgreSQL-Back-End)
 (Java + Spring Boot), que por sua vez orquestra o
 [`Autotuning-PostgreSQL-Pipeline`](../Autotuning-PostgreSQL-Pipeline)
 (Python, responsável pela geração das configurações via Latin Hypercube Sampling, execução
@@ -384,12 +384,12 @@ componentes renderizam isoladamente com props fixas.
 | Dependência | Versão | Instalação |
 |---|---|---|
 | Node.js | 22+ | `npm install` |
-| Backend rodando | `http://localhost:8000` | Ver `Autotuning-PostgreSQL-Backend`, configurável via `VITE_API_BASE` |
+| Backend rodando | `http://localhost:8000` | Ver `Autotuning-PostgreSQL-Back-End`, configurável via `VITE_API_BASE` |
 
 ## Como Executar
 
 Pré-requisitos: Node 22+, e o backend
-([`Autotuning-PostgreSQL-Backend`](../Autotuning-PostgreSQL-Backend))
+([`Autotuning-PostgreSQL-Back-End`](../Autotuning-PostgreSQL-Back-End))
 rodando em `http://localhost:8000` (configurável via `.env.development`,
 variável `VITE_API_BASE`).
 
